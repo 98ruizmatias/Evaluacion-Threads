@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e632153-5777-4a5f-97ea-35008d6269c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prueba/src/ThreadImpar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prueba/src/ThreadPar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prueba/src/Matrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prueba/src/ThreadPartA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prueba/src/ThreadPartB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prueba/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Prueba/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prueba/src/App.java" afterPath="$PROJECT_DIR$/Prueba/src/App.java" />
     </list>
@@ -20,12 +21,43 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Prueba/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+            <state relative-caret-position="795">
+              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1504487049000" expanded="true" signature="298:1108" ph="..." />
+                <marker date="1504487505000" expanded="true" signature="298:1108" ph="..." />
+                <marker date="1504487505000" expanded="true" signature="1138:1720" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPartA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadPartA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prueba/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPartB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadPartB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,6 +141,8 @@
         <option value="$PROJECT_DIR$/src/ThreadA.java" />
         <option value="$PROJECT_DIR$/Prueba/src/ThreadPar.java" />
         <option value="$PROJECT_DIR$/Prueba/src/ThreadImpar.java" />
+        <option value="$PROJECT_DIR$/Prueba/src/ThreadPartB.java" />
+        <option value="$PROJECT_DIR$/Prueba/src/ThreadPartA.java" />
         <option value="$PROJECT_DIR$/Prueba/src/App.java" />
       </list>
     </option>
@@ -119,11 +153,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="16" />
-    <option name="y" value="38" />
-    <option name="width" value="1408" />
-    <option name="height" value="842" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,6 +214,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Prueba/src" />
       <recent name="$PROJECT_DIR$/Prueba" />
     </key>
   </component>
@@ -343,16 +378,15 @@
       <option name="presentableId" value="Default" />
       <updated>1504372963915</updated>
       <workItem from="1504374115501" duration="4374000" />
-      <workItem from="1504482031419" duration="2363000" />
+      <workItem from="1504482031419" duration="2749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6737000" />
+    <option name="totallyTimeSpent" value="7123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="true" />
+    <frame x="16" y="22" width="1440" height="874" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -391,7 +425,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -402,7 +436,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1504487049000" expanded="true" signature="298:1108" ph="..." />
+            <marker date="1504487505000" expanded="true" signature="298:1108" ph="..." />
+            <marker date="1504487505000" expanded="true" signature="1138:1720" ph="..." />
           </folding>
         </state>
       </provider>
@@ -439,7 +474,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1504487049000" expanded="true" signature="298:1108" ph="..." />
+            <marker date="1504487505000" expanded="true" signature="298:1108" ph="..." />
+            <marker date="1504487505000" expanded="true" signature="1138:1720" ph="..." />
           </folding>
         </state>
       </provider>
@@ -505,13 +541,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Prueba/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadPartB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadPartA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Prueba/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        <state relative-caret-position="795">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1504487049000" expanded="true" signature="298:1108" ph="..." />
+            <marker date="1504487505000" expanded="true" signature="298:1108" ph="..." />
+            <marker date="1504487505000" expanded="true" signature="1138:1720" ph="..." />
           </folding>
         </state>
       </provider>

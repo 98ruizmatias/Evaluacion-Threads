@@ -51,27 +51,63 @@ public class App {
 
         /*Ejercicio 3*/
 
-        int size = 10;
-        int [] data = new int[size];
-        Counter counter = new Counter(0);
-        Semaphore x = new Semaphore(3);
+//        int size = 10;
+//        int [] data = new int[size];
+//        Counter counter = new Counter(0);
+//        Semaphore x = new Semaphore(3);
+//
+//        ThreadPar tp = new ThreadPar(size, data,counter,x);
+//        ThreadImpar ti = new ThreadImpar(size, data,counter,x);
+//
+//        //tp.start();
+//        ti.start();
+//
+//        try{
+//            //tp.join();
+//            ti.join();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//        for (int i= 0; i < data.length; ++i){
+//            System.out.println(data[i]);
+//        }
 
-        ThreadPar tp = new ThreadPar(size, data,counter,x);
-        ThreadImpar ti = new ThreadImpar(size, data,counter,x);
 
-        //tp.start();
-        ti.start();
 
-        try{
-            //tp.join();
-            ti.join();
-        }catch (Exception e){
+
+        /*Ejercicio 4*/
+
+        Matrix matrix = new Matrix(3,3);
+
+        boolean thA = true;
+        boolean thB = true;
+
+        ThreadPartA ta = new ThreadPartA(matrix,matrix.getMid() ,thA);
+        ThreadPartB tb = new ThreadPartB(matrix, matrix.getMid(), thB);
+
+        for (int i = 0; i < matrix.rows() ;  i++) {
+            for (int j = 0; j < matrix.cols(); j++) {
+                matrix.set(i,j,1);
+            }
+        }
+
+        ta.start();
+        tb.start();
+
+        try {
+            ta.join();
+            tb.join();
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        for (int i= 0; i < data.length; ++i){
-            System.out.println(data[i]);
-        }
+        matrix.set(matrix.cols()-1, matrix.rows()-1, 0);
+        matrix.set(matrix.cols()-2, matrix.rows()-1, 0);
+
+
+        System.out.println(thA);
+        System.out.println(thB);
 
 
     }
