@@ -17,37 +17,61 @@ public class App {
         * AAABBC = 111223
         *
         * */
+//
+//        int [] data = new int[12];
+//        Counter counter = new Counter(0);
+//        Semaphore x = new Semaphore(3);
+//        Semaphore y = new Semaphore(0);
+//        Semaphore z = new Semaphore(0);
+//        Semaphore A = new Semaphore(0);
+//
+//        ThreadA tha = new ThreadA(data, 1 ,counter, x, y, z, A);
+//        ThreadB thb = new ThreadB(data, 2 ,counter, x, y, z, A);
+//        ThreadC thc = new ThreadC(data, 3 ,counter, x, y, z, A);
+//
+//
+//        tha.run();
+//        thb.run();
+//        thc.run();
+//
+//
+//
+//        try{
+//            tha.join();
+//            thb.join();
+//            thc.join();
+//        } catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//        for (int i= 0; i < data.length; ++i){
+//            System.out.println(data[i]);
+//        }
 
-        int [] data = new int[12];
+
+        /*Ejercicio 3*/
+
+        int size = 10;
+        int [] data = new int[size];
         Counter counter = new Counter(0);
         Semaphore x = new Semaphore(3);
-        Semaphore y = new Semaphore(0);
-        Semaphore z = new Semaphore(0);
-        Semaphore A = new Semaphore(0);
 
-        ThreadA tha = new ThreadA(data, 1 ,counter, x, y, z, A);
-        ThreadB thb = new ThreadB(data, 2 ,counter, x, y, z, A);
-        ThreadC thc = new ThreadC(data, 3 ,counter, x, y, z, A);
+        ThreadPar tp = new ThreadPar(size, data,counter,x);
+        ThreadImpar ti = new ThreadImpar(size, data,counter,x);
 
-
-        tha.run();
-        thb.run();
-        thc.run();
-
-
+        //tp.start();
+        ti.start();
 
         try{
-            tha.join();
-            thb.join();
-            thc.join();
-        } catch (Exception e){
+            //tp.join();
+            ti.join();
+        }catch (Exception e){
             e.printStackTrace();
         }
 
         for (int i= 0; i < data.length; ++i){
             System.out.println(data[i]);
         }
-
 
 
     }

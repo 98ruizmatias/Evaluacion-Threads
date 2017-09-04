@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e632153-5777-4a5f-97ea-35008d6269c7" name="Default" comment="" />
+    <list default="true" id="9e632153-5777-4a5f-97ea-35008d6269c7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prueba/src/ThreadImpar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Prueba/src/ThreadPar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prueba/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Prueba/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Prueba/src/App.java" afterPath="$PROJECT_DIR$/Prueba/src/App.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +20,32 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Prueba/src/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="810">
+              <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1504487049000" expanded="true" signature="298:1108" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadPar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadPar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadImpar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadImpar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -27,8 +53,8 @@
       <file leaf-file-name="ThreadA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="-218">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,6 +107,9 @@
         <option value="$PROJECT_DIR$/src/ThreadB.java" />
         <option value="$PROJECT_DIR$/src/ThreadC.java" />
         <option value="$PROJECT_DIR$/src/ThreadA.java" />
+        <option value="$PROJECT_DIR$/Prueba/src/ThreadPar.java" />
+        <option value="$PROJECT_DIR$/Prueba/src/ThreadImpar.java" />
+        <option value="$PROJECT_DIR$/Prueba/src/App.java" />
       </list>
     </option>
   </component>
@@ -314,12 +343,12 @@
       <option name="presentableId" value="Default" />
       <updated>1504372963915</updated>
       <workItem from="1504374115501" duration="4374000" />
-      <workItem from="1504482031419" duration="598000" />
+      <workItem from="1504482031419" duration="2363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4972000" />
+    <option name="totallyTimeSpent" value="6737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -373,6 +402,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1504487049000" expanded="true" signature="298:1108" ph="..." />
           </folding>
         </state>
       </provider>
@@ -409,6 +439,7 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1504487049000" expanded="true" signature="298:1108" ph="..." />
           </folding>
         </state>
       </provider>
@@ -450,20 +481,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="-218">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadPar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prueba/src/ThreadImpar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Prueba/src/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="810">
+          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1504487049000" expanded="true" signature="298:1108" ph="..." />
           </folding>
         </state>
       </provider>
